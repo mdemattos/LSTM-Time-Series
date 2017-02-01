@@ -1,6 +1,4 @@
 name: snakes
-channels:
-- defaults
 dependencies:
 - cycler=0.10.0=py34_0
 - dbus=1.10.10=0
