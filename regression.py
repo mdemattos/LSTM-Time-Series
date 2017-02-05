@@ -12,7 +12,7 @@ from sklearn.metrics import mean_squared_error
 numpy.random.seed(7)
 
 # load the dataset
-dataframe = pandas.read_csv('international-airline-passengers.csv', usecols=[1], engine='python', skipfooter=3)
+dataframe = pandas.read_csv('datasets/monthly-water-usage-mlday-london.csv', usecols=[1], engine='python', skipfooter=3)
 dataset = dataframe.values
 dataset = dataset.astype('float32')
 
@@ -48,7 +48,7 @@ model = Sequential()
 model.add(LSTM(4, input_dim=look_back))
 model.add(Dense(1))
 model.compile(loss='mean_squared_error', optimizer='adam')
-model.fit(trainX, trainY, nb_epoch=100, batch_size=1, verbose=2)
+model.fit(trainX, trainY, nb_epoch=20, batch_size=1, verbose=2)
 
 # make predictions
 trainPredict = model.predict(trainX)
