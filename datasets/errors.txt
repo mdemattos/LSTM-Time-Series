@@ -1,0 +1,15 @@
+monthly-water-usage-mlday-london
+30 Epochs
+Train Score: 2.59 MAE
+Test Score: 3.14 MAE
+
+monthly-reported-number-of-cases
+30 Epochs
+Train Score: 30.91 MAE
+Test Score: 21.19 MAE
+
+annual-bituminous-coal-productio-300
+300 Epochs
+Train Score: 7.11 MAE
+Test Score: 5.46 MAE
+
