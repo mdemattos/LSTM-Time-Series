@@ -1,15 +1,49 @@
-monthly-water-usage-mlday-london
-30 Epochs
-Train Score: 2.59 MAE
-Test Score: 3.14 MAE
-
-monthly-reported-number-of-cases
-30 Epochs
-Train Score: 30.91 MAE
-Test Score: 21.19 MAE
+80/20 split
 
 annual-bituminous-coal-productio-300
-300 Epochs
-Train Score: 7.11 MAE
-Test Score: 5.46 MAE
+
+150 Epochs
+Train Score: 47.86 MAE
+Test Score: 23.17 MAE
+
+Test data:
+[ 416.00001913  403.00000179  422.00000359  458.99999701  467.00000179
+  512.          533.99999402  551.99998565]
+Test predict:
+ [ 434.63931274  437.32705688  428.61315918  441.36782837  466.41656494
+  471.83572388  502.06552124  516.57006836]
+
+Test predict Joselmo ARIMA:
+[ 419,1944444   422,9166667   410,2222222   408,25       405,7777778
+  424,1944444   472,6944444   527,8333333]
+
+Erros ARIMA
+[ 3.194         19.914        11.788         50.750      61.223
+  87.816        61.306        24.167] = 320.158/8 = 40.019
+
+Test predict Joselmo NN:
+[ 449,4194444   451,7402778   418,1444444   385,2527778   376,8319444
+  376,4055556   413,1722222   482,6055556] 
+
+Erros NN:
+[ 33.419        48.740        3.856         73.748         90.168
+  135.595       120.83        69.395] = 575.751/8 = 71.968
+
+monthly-reported-number-of-cases
+
+30 Epochs
+Train Score: 876.28 MAE
+Test Score: 268.75 MAE
+
+monthly-water-usage-mlday-london
+
+30 Epochs
+Train Score: 7.22 MAE
+Test Score: 9.34 MAE
+
+monthly-temperature-in-england-f
+
+30 Epochs
+Train Score: 2.31 MAE
+Test Score: 2.24 MAE
 
