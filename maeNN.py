@@ -56,5 +56,5 @@ for i in range (len(absoluteTemperatureErrorsNN)):
     sumCorrectErrors += absoluteTemperatureErrorsNN[i]
 
 
-print("MAE errado: ", sumWrongErrors/len(temperatureErrorsNN))
-print("MAE correto: ", sumCorrectErrors/len(absoluteTemperatureErrorsNN))
+print("MAE errado: ", sumWrongErrors/len(temperatureErrorsNN)) # 0.758
+print("MAE correto: ", sumCorrectErrors/len(absoluteTemperatureErrorsNN)) # 0.3128
