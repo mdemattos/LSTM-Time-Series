@@ -55,5 +55,5 @@ for i in range (len(absoluteTemperatureErrorsARIMA)):
     sumCorrectErrors += absoluteTemperatureErrorsARIMA[i]
 
 
-print("MAE errado: ", sumWrongErrors/len(temperatureErrorsARIMA))
-print("MAE correto: ", sumCorrectErrors/len(absoluteTemperatureErrorsARIMA))
+print("MAE errado: ", sumWrongErrors/len(temperatureErrorsARIMA)) #-0.6011
+print("MAE correto: ", sumCorrectErrors/len(absoluteTemperatureErrorsARIMA)) #1.1219
